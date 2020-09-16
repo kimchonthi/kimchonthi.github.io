@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+.container{
+	width: 80%;
+	margin: auto
+}
+.header
+{width: 100%;
+height: 60px;
+background: #000000;
+position: fixed}
+
+.menu
+{
+	width: 70%;
+	height: 100%;
+	background: #000000;
+	float: right
+}
+.logo
+{width: 30%;
+height: 100%;
+background: #D0940B;
+font-size: 40px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF
+	
+}
+
+ul
+{list-style: none;
+margin: 0;
+padding: 0}
+
+ul li
+{float: left;
+padding: 20px 20px 15px 20px;
+position: relative}
+
+ul li a
+{text-decoration: none;
+color: aliceblue;
+font-size: 25px;
+
+}
+
+ul li:hover
+{border-bottom: 4px #48E873 solid}
+
+ul li ul li
+{float: none;
+padding-top: 10px
+	
+}
+ul li ul
+{
+	background: #FFFFFF;
+	position: absolute;
+	top: 63px;
+	left: 0px;
+	width: 300px;
+	visibility: hidden
+}
+ul li:hover ul
+{visibility: visible}
+
+ul li ul li a{color: #000000}
+
+.banner
+{width: 100%;
+height: 100vh;
+background: #E7D057}
+.sanpham
+{
+width: 100%;
+height: 120vh;
+}
+.blog
+{
+width: 100%;
+height: 100vh;
+}
+.cuahang
+{
+width: 100%;
+height: 100vh;
+}
+.footer
+{
+width: 100%;
+height: 50vh;
+background: #1D1D1D
+}
+.img-res
+{width: 100%;
+height: 100%}
+
+.sanphamhead
+{width: 100%;
+height: 10%;
+display: flex;
+align-items: flex-end;
+justify-content: space-between}
+
+.textsanphamhead{
+	width: 5%;
+	height: auto;
+	font-size: 50px;
+	font-weight: bold;
+	border-bottom: #A60A0A 5px solid;
+	color: #BA700D
+}
+.sanpham button{
+	font-size: 20px;
+	background: #1D1D1D;
+	color: aliceblue;
+	height: 50px
+}
+.item3
+{
+width: 100%;
+height: 40%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px
+	
+}
+.item{
+width: 30%;
+	height: 100%;
+}
+.hinh{
+width: 100%;
+height: 80%;
+background: #F56163
+}
+.textitem{
+	width: 100%;
+	height: 20%;
+	font-size: 25px;
+	padding-top: 10px;
+	font-weight: bold;
+	color: #AF4810
+}
+.blog button{
+	font-size: 20px;
+	background: #1D1D1D;
+	color: aliceblue;
+	height: 50px
+}
+.blognoidung{
+	width: 100%;
+	height: 80%;
+	margin-top: 40px;
+}
+.hinhblog{
+	width: 100%;
+	height: 60%;
+}
+.textblog{
+	width: 100%;
+	height: 40%;
+	font-size: 30px;
+	padding-top: 10px
+}
+.cuahang .sanphamhead .textsanphamhead{
+	width: 20%
+}
+.cuahangnoidung{
+	width: 100%;
+	height: 50%;
+	margin-top: 40px
+}
+.cuahangitem{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px
+}
+.textcuahang{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #D16C29
+	
+}
+.chuatext{
+	width: 80%;
+	font-size: 25px;
+	margin: 120px auto 0px auto
+}
+.hinhcuahang{
+	width: 50%;
+	height: 100%;
+	float: left
+}
+.hinhitemcuahang{
+	width: 22%;
+	height: 100%;
+}
+.footer{
+	width: 100%;
+	height: 50vh;
+	background: #2E2E2E
+}
+
+.footernho{
+	width: 25%;
+	height: 100%;
+	float: left;
+	color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
